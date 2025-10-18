@@ -1,0 +1,19 @@
+.movie-grid {
+    --gridColumns: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--gridColumns), 300px);
+    gap: 20px;
+    justify-content: center;
+
+    @media (width <= 660px) {
+        --gridColumns: 1;
+    }
+
+    @media ( 660px < width <= 980px) {
+        --gridColumns: 2;
+    }
+
+    @media ( 980px < width <= 1300px) {
+        --gridColumns: 3;
+    }
+}

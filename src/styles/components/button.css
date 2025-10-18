@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--color-purple-2);
+    border-radius: 5px;
+    border-color: var(--color-purple-4);
+    color: var(--color-purple-4);
+}
+
+.button:hover {
+    color: var(--color-white);
+}

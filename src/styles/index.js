@@ -1,0 +1,11 @@
+import './normalize.css'
+import './fonts.css'
+import './variables.css'
+import './globals.css'
+
+import './components/movie-card.css'
+import './components/movie-grid.css'
+import './components/header.css'
+import './components/form.css'
+import './components/button.css'
+import './components/home-page.css'

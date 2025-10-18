@@ -1,0 +1,2 @@
+# Movies Search
+A movie search page that I made to practice React. I used the [Kinopoisk API](https://kinopoisk.dev/) to load movies. Deployed page can be found [here](https://natalyasa.github.io/portfolio-movies/dist/).

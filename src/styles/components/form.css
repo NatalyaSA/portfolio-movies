@@ -1,0 +1,24 @@
+.form {
+    /* position: sticky;
+    top: 48px; */
+
+    background-color: var(--color-purple-1);
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-block: 20px;
+    padding-inline: 10px;
+}
+
+input {
+    width: 300px;
+    border-radius: 5px;
+    background-color: var(--color-purple-3);
+    color: var(--color-white);
+    border: none;
+    padding-left: 7px;
+}
+
+input::placeholder {
+    color: var(--color-purple-4);
+}
